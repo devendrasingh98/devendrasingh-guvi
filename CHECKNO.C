@@ -8,7 +8,7 @@ if(n<0)
 {
 printf("no. is negative");
 }
-else if(n>0)
+else if(n>0 && n<100001)
 {
 printf("no. is positive");
 }
