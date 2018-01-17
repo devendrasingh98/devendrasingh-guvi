@@ -1,7 +1,6 @@
-#include<stdio.h>
-#include<conio.h>
-void main()
-{
+#include <stdio.h>
+ 
+int main(void) {
 int n=3;
 if(n<0)
 {
@@ -15,5 +14,7 @@ else
 {
 printf("no. is zero");
 }
-getch();
+ 
+	return 0;
 }
+ 
