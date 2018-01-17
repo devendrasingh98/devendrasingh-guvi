@@ -1,7 +1,9 @@
 #include <stdio.h>
- 
-int main(void) {
-int n=3;
+
+void main(void) {
+int n;
+printf("enter your no.");
+scanf("%d",&n);
 if(n<0)
 {
 printf("no. is negative");
@@ -14,7 +16,3 @@ else
 {
 printf("no. is zero");
 }
- 
-	return 0;
-}
- 
