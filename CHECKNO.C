@@ -2,10 +2,7 @@
 #include<conio.h>
 void main()
 {
-int n;
-clrscr();
-printf("enter your no.");
-scanf("%d",&n);
+int n=3;
 if(n<0)
 {
 printf("no. is negative");
